@@ -2,5 +2,10 @@
 cd $1
 mkdir jre
 cd jre
-wget http://datecraft.epizy.com/jre/java-se-8u40-ri-compact1.tar.gz
-tar -xf jre-8u211-linux-i586.tar.gz?AuthParam=1556369193_147fd4eacc78fefaad4adbca0f99eac8
+wget https://raw.githubusercontent.com/Pandapip1/install-java-buildpack/master/jre_ri-8u40-b25-compact1-linux-i586-10_feb_2015.tar.gz
+tar -xf jre_ri-8u40-b25-compact1-linux-i586-10_feb_2015.tar.gz
+cd java-se-8u40-ri-compact1/bin
+echo -n "Set PATH to "
+echo -n $PATH
+echo -n ":"
+pwd
