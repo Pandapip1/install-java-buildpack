@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $1
+mkdir jre
+cd jre
+wget http://datecraft.epizy.com/jre/java-se-8u40-ri-compact1.tar.gz
+tar -xf jre-8u211-linux-i586.tar.gz?AuthParam=1556369193_147fd4eacc78fefaad4adbca0f99eac8
